@@ -1,0 +1,48 @@
+<html>
+    <header>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <style>
+
+        
+
+        </style>
+
+        <title>FCC Survey Form</title> 
+    </header>
+    <body>
+        <h1  id="title">freeCodeCamp Survey Form</h1>
+        <p id="description" style="color: rgba(219, 207, 35, 0.808);">Thank you for taking the time to help us improve the platform</p>
+
+        <form class="main_area" id = "survey-form">
+
+            <p id="name">Name</p>
+            <input type="text" placeholder="Enter your name">
+
+            <p id="email">Email</p>
+            <input type="email" placeholder="Enter youe Email">
+
+            <p>Age (optional)</p>
+            <input type="number" placeholder="Age" min="10" max="99">
+
+            <p>Which option best describes your current role</p>
+            <select name="Current role" id="current_role">
+                <option value="student">Student</option>
+                <option value="student">Full Time Leaner</option>
+                <option value="student">Full Time Job</option>
+                <option value="student">prefer not to say</option>
+                <option value="student">Other</option>
+
+            </select>
+
+            <p>Would you recommend freeCodeCamp to a friend</p>
+
+            <form action="">
+            <label for="definitly"><input id="definitly" type="radio" name="recommend" >Definitly</label>
+            <label for="maybe"><input id="maybe" type="radio" name="recommend" >Maybe</label>
+            <label for="uncertain"><input id="uncertain" type="radio" name="recommend" >Not sure</label>
+
+            </form>
+        </form>
+        
+    </body>
+</html>
